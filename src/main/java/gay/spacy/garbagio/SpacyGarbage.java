@@ -1,6 +1,11 @@
 package gay.spacy.garbagio;
 
 import com.mojang.logging.LogUtils;
+import gay.spacy.garbagio.blocks.modBlocks;
+import gay.spacy.garbagio.items.basicItems;
+import gay.spacy.garbagio.items.creativeTab;
+import gay.spacy.garbagio.items.modItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -26,7 +31,13 @@ public class SpacyGarbage
     public SpacyGarbage(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
+
         modEventBus.addListener(this::commonSetup);
+
+        modItems.register(modEventBus);
+        modBlocks.register(modEventBus);
+        creativeTab.register(modEventBus);
+
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
         context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
@@ -38,7 +49,10 @@ public class SpacyGarbage
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(modItems.GEM);
+            event.accept(modItems.RAW_GEM);
+        }
     }
 
     @SubscribeEvent

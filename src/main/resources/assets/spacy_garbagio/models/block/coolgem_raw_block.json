@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "spacy_garbagio:block/raw_coolgem_block"
+  }
+}
