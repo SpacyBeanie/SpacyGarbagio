@@ -15,15 +15,22 @@ public class creativeTab {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, SpacyGarbage.MODID);
 
     public static final RegistryObject<CreativeModeTab> GARB_TAB = CREATIVE_MODE_TABS.register("spacy_garbagio_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(modItems.GEM.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(modBlocks.BI_BRICKS.get()))
                     .title(Component.translatable("creativetab.spacy_garbagio"))
-                    .displayItems((itemDisplayParameters, output) -> {
+                    .displayItems((itemDisplayParameters, event) -> {
                         //Items
-                        output.accept(modItems.GEM.get());
-                        output.accept(modItems.RAW_GEM.get());
+
                         //Blocks
-                        output.accept(modBlocks.COOLGEM_BLOCK.get());
-                        output.accept(modBlocks.COOLGEM_RAW_BLOCK.get());
+                        event.accept(modBlocks.BI_BRICKS.get());
+                        event.accept(modBlocks.BI_BRICKS_STAIRS.get());
+                        event.accept(modBlocks.BI_BRICKS_STAIRS_FLIPPED.get());
+                        event.accept(modBlocks.BI_BRICKS_FLIPPED.get());
+                        event.accept(modBlocks.BLUE_BRICKS.get());
+                        event.accept(modBlocks.BLUE_BRICKS_STAIRS.get());
+                        event.accept(modBlocks.PINK_BRICKS.get());
+                        event.accept(modBlocks.PINK_BRICKS_STAIRS.get());
+                        event.accept(modBlocks.MAGENTA_BRICKS.get());
+                        event.accept(modBlocks.MAGENTA_BRICKS_STAIRS.get());
                     })
                     .build());
     public static void register(IEventBus eventBus){

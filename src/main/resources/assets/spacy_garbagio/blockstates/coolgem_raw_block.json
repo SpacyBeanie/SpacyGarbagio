@@ -1,7 +1,0 @@
-{
-  "variants":{
-    "": {
-      "model": "spacy_garbagio:block/coolgem_raw_block"
-    }
-  }
-}

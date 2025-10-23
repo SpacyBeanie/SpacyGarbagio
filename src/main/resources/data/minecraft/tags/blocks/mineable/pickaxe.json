@@ -1,0 +1,14 @@
+{
+  "values": [
+    "spacy_garbagio:bi_bricks",
+    "spacy_garbagio:bi_bricks_flipped",
+    "spacy_garbagio:bi_bricks_stairs",
+    "spacy_garbagio:bi_bricks_stairs_flipped",
+    "spacy_garbagio:blue_bricks",
+    "spacy_garbagio:blue_bricks_stairs",
+    "spacy_garbagio:magenta_bricks",
+    "spacy_garbagio:magenta_bricks_stairs",
+    "spacy_garbagio:pink_bricks",
+    "spacy_garbagio:pink_bricks_stairs"
+  ]
+}

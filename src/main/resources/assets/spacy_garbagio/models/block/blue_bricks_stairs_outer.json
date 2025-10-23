@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "spacy_garbagio:block/bi_bricks_bottom",
+    "side": "spacy_garbagio:block/bi_bricks_bottom",
+    "top": "spacy_garbagio:block/bi_bricks_bottom"
+  }
+}

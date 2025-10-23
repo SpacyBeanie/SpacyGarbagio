@@ -50,8 +50,17 @@ public class SpacyGarbage
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(modItems.GEM);
-            event.accept(modItems.RAW_GEM);
+            event.accept(modBlocks.BI_BRICKS.get());
+            event.accept(modBlocks.BI_BRICKS_STAIRS.get());
+            event.accept(modBlocks.BI_BRICKS_STAIRS_FLIPPED.get());
+            event.accept(modBlocks.BI_BRICKS_FLIPPED.get());
+            event.accept(modBlocks.BLUE_BRICKS.get());
+            event.accept(modBlocks.BLUE_BRICKS_STAIRS.get());
+            event.accept(modBlocks.PINK_BRICKS.get());
+            event.accept(modBlocks.PINK_BRICKS_STAIRS.get());
+            event.accept(modBlocks.MAGENTA_BRICKS.get());
+            event.accept(modBlocks.MAGENTA_BRICKS_STAIRS.get());
+
         }
     }
 

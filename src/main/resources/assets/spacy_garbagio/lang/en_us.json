@@ -1,7 +1,13 @@
 {
   "creativetab.spacy_garbagio": "Spacy's Garbage",
-  "item.spacy_garbagio.coolgem": "Cool Gem",
-  "item.spacy_garbagio.raw_coolgem": "Raw Cool Gem",
-  "block.spacy_garbagio.coolgem_block": "Cool Gem Block",
-  "block.spacy_garbagio.coolgem_raw_block": "Cool Gem Raw Block"
+  "block.spacy_garbagio.bi_bricks": "Bisexual Bricks",
+  "block.spacy_garbagio.bi_bricks_flipped": "Bisexual Bricks (Flipped)",
+  "block.spacy_garbagio.blue_bricks": "Blue Bricks",
+  "block.spacy_garbagio.magenta_bricks": "Magenta Bricks",
+  "block.spacy_garbagio.pink_bricks": "Pink Bricks",
+  "block.spacy_garbagio.bi_bricks_stairs": "Bisexual Brick Stairs",
+  "block.spacy_garbagio.bi_bricks_stairs_flipped": "Bisexual Brick Stairs (Flipped)",
+  "block.spacy_garbagio.blue_bricks_stairs": "Blue Brick Stairs",
+  "block.spacy_garbagio.magenta_bricks_stairs": "Magenta Brick Stairs",
+  "block.spacy_garbagio.pink_bricks_stairs": "Pink Brick Stairs"
 }

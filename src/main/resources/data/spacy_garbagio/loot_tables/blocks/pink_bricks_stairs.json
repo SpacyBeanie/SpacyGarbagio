@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spacy_garbagio:pink_bricks_stairs"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "spacy_garbagio:blocks/pink_bricks_stairs"
+}

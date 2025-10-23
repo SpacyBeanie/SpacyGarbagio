@@ -1,0 +1,7 @@
+{
+  "variants":{
+    "": {
+      "model": "spacy_garbagio:block/magenta_bricks"
+    }
+  }
+}

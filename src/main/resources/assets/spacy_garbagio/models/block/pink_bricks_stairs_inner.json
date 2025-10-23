@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "spacy_garbagio:block/bi_bricks_top",
+    "side": "spacy_garbagio:block/bi_bricks_top",
+    "top": "spacy_garbagio:block/bi_bricks_top"
+  }
+}
